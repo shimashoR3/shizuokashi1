@@ -1,0 +1,86 @@
+/**/
+
+.mount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:50px;
+    border-bottom:5px solid rgb(135, 206, 250);
+}
+nav *:last-child{
+    min-width:50px;
+
+}
+nav *:first-child{
+    min-width:50px;
+}
+nav h1 {
+    font-size:20px;
+}
+#menu button {
+    width:60%;
+    height:100px;
+    padding:1px;
+    align-items: center;
+    margin-bottom:20px;
+    border-radius:10px;  
+    background-color:rgb(135, 206, 250);
+}
+#menu {
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+}
+a{
+    color:inherit
+}
+a:visited{
+    color:inherit
+}
+#mount {
+    width:100%;
+    max-height:200px;
+    overflow: hidden;
+    margin-bottom:10px;
+    text-align: center;
+}
+#mount img {
+    width:80%;
+}
+#explain{
+    padding:10px;
+    height:20px;
+    border:dashed 1px　;
+}
+#license {
+    font-size:10px;
+}
+
+.btn-square {
+  display: inline-block;
+  width: 50%;
+  padding: 1em;
+  margin-bottom:30px;
+  text-decoration: none;
+  background: rgb(135, 206, 250);/*ボタン色*/
+  color: black;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+img {
+  width: 100%;
+}
+
